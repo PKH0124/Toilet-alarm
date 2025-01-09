@@ -26,3 +26,47 @@ void Bsp_Ht32led_Config(void)
  GPIO_DriveConfig        (BSP_HT32LED_GPIO, BSP_HT32LED2_GPIO_PIN, GPIO_DV_4MA); 	//输出电流大小 4,8,12,16
 
 }
+
+/********************************************************
+* Function name 				:Bsp_Ht32led_On
+* Description       :开灯 
+* Parameter         :
+* @number           选择开哪个灯 
+* Return          		:无
+**********************************************************/
+void Bsp_Ht32led_On(enum BSP_HT32LED_NUMBER number)
+{
+	switch(number)
+	{
+		case (BSP_HT32LED1):
+			GPIO_WriteOutBits(BSP_HT32LED_GPIO,BSP_HT32LED1_GPIO_PIN,RESET);
+			break;
+		case (BSP_HT32LED2):
+			GPIO_WriteOutBits(BSP_HT32LED_GPIO,BSP_HT32LED2_GPIO_PIN,RESET);
+			break;
+		default:
+			break;
+	}
+}
+
+/********************************************************
+* Function name 				:Bsp_Ht32led_Off
+* Description       :关灯 
+* Parameter         :
+* @number           选择关哪个灯 
+* Return          		:无
+**********************************************************/
+void Bsp_Ht32led_Off(enum BSP_HT32LED_NUMBER number)
+{
+	switch(number)
+	{
+		case (BSP_HT32LED1):
+			GPIO_WriteOutBits(BSP_HT32LED_GPIO,BSP_HT32LED1_GPIO_PIN,SET);
+			break;
+		case (BSP_HT32LED2):
+			GPIO_WriteOutBits(BSP_HT32LED_GPIO,BSP_HT32LED2_GPIO_PIN,SET);
+			break;
+		default:
+			break;
+	}
+}

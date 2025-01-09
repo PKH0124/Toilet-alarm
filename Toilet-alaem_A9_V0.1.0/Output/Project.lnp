@@ -35,8 +35,8 @@
 "..\output\bsp_ht32led.o"
 "..\output\bsp_debug.o"
 "..\output\bsp_lora.o"
-"..\output\abs_lora.o"
 "..\output\abs_ht32led.o"
+"..\output\abs_lora.o"
 "..\output\abs_delay.o"
 --library_type=microlib --strict --scatter "..\Output\Project.sct"
 --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

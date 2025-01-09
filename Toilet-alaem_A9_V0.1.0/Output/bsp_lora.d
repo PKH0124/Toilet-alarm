@@ -2,7 +2,7 @@
 ..\output\bsp_lora.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\output\bsp_lora.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\output\bsp_lora.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-..\output\bsp_lora.o: ..\sttbsp\bsp_lora.h
+..\output\bsp_lora.o: ..\sttbsp\bsp_debug.h
 ..\output\bsp_lora.o: ..\Libraries\HT32F5xxxx_Driver\inc\ht32.h
 ..\output\bsp_lora.o: ..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h
 ..\output\bsp_lora.o: ..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h
@@ -45,5 +45,7 @@
 ..\output\bsp_lora.o: ..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h
 ..\output\bsp_lora.o: ..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h
 ..\output\bsp_lora.o: ..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h
+..\output\bsp_lora.o: ..\sttbsp\bsp_lora.h
 ..\output\bsp_lora.o: ..\sttabs\abs_ht32led.h
 ..\output\bsp_lora.o: ..\sttbsp\bsp_ht32led.h
+..\output\bsp_lora.o: ..\sttabs\abs_delay.h

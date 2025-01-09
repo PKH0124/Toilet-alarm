@@ -2,8 +2,13 @@
 #include <string.h>
 #include <stdarg.h>
 
+#include "bsp_debug.h"
 #include "bsp_lora.h"
 #include "abs_ht32led.h"
+#include "abs_delay.h"
+
+/*缓存LORA_USART收到的数据*/
+static BSP_LORA_USART	s_bsp_lora_rx;
 
 /********************************************************
 * Function name 				:Bsp_Lora_Res_Config
@@ -22,6 +27,19 @@ void Bsp_Lora_Res_Config(void)
  GPIO_DirectionConfig    (BSP_LORA_GPIO, BSP_LORA_GPIO_RES, GPIO_DIR_OUT); 
  GPIO_PullResistorConfig (BSP_LORA_GPIO, BSP_LORA_GPIO_RES, GPIO_PR_DISABLE); 
  GPIO_DriveConfig        (BSP_LORA_GPIO, BSP_LORA_GPIO_RES, GPIO_DV_8MA);
+}
+
+/********************************************************
+* Function name 				:Bsp_Lora_Res
+* Description       :Lora模块复位 
+* Parameter         :void
+* Return          		:无
+**********************************************************/
+void Bsp_Lora_Res(void)
+{
+	GPIO_WriteOutBits(BSP_LORA_GPIO,BSP_LORA_GPIO_RES,RESET);
+	Abs_Delay_Ms(20);
+	GPIO_WriteOutBits(BSP_LORA_GPIO,BSP_LORA_GPIO_RES,SET);
 }
 
 /********************************************************
@@ -130,6 +148,75 @@ void Bsp_Lora_Printf(char* fmt,...)
 	 while(USART_GetFlagStatus(BSP_LORA,USART_FLAG_TXC)==RESET); 
 		USART_SendData(BSP_LORA,lora_tx_buf[j]);  
 	} 
+}
+
+/********************************************************
+* Function name 				:Bsp_Lora_Clear_Struct
+* Description       :清楚LORA_USART的数据 
+* Parameter         :void
+* Return          		:无
+**********************************************************/ 
+void Bsp_Lora_Clear_Struct(void)
+{
+	memset(s_bsp_lora_rx.buffer,0,s_bsp_lora_rx.length);
+	s_bsp_lora_rx.length=0;
+}
+
+/********************************************************
+* Function name 				:Bsp_Lora_Send_Cmd
+* Description       :发送AT指令并等待回复 
+* Parameter         :
+*@cmd															发送的指令
+*@reply													收到的回复
+*@wait														等待回复的时间
+* Return          		:成功返回1，失败返回0
+**********************************************************/ 
+int32_t Bsp_Lora_Send_Cmd(char* cmd, char* reply, uint32_t wait)
+{
+	Bsp_Lora_Clear_Struct();
+	Bsp_Debug_Printf("[Bsp_Lora_Send_Cmd] %s\r\n", cmd);
+	Bsp_Lora_SendArray(cmd, strlen(cmd));
+
+	Abs_Delay_Ms(wait);
+
+	if (strcmp(reply, "") == 0)
+	{
+		return 1;
+	}
+	if (s_bsp_lora_rx.length != 0)
+	{
+		s_bsp_lora_rx.buffer[s_bsp_lora_rx.length] = '\0';
+		if (strstr((char*)s_bsp_lora_rx.buffer, reply))
+		{
+			Bsp_Debug_Printf("return:%s\r\n", s_bsp_lora_rx.buffer);
+			return 0;
+		}
+		else
+		{
+			Bsp_Debug_Printf("return:%s\r\n", s_bsp_lora_rx.buffer);
+			return 1;
+		}  
+	}  
+	return 1;
+}
+
+/********************************************************
+* Function name 				:BSP_LORA_IRQHANDLER
+* Description       :Lora宏定义后的中断函数 
+* Parameter         :void
+* Return          		:无
+**********************************************************/ 
+void BSP_LORA_IRQHANDLER(void)
+{
+	uint8_t data;
+
+	if( USART_GetFlagStatus(BSP_LORA, USART_FLAG_RXDR ) )         //接收中断
+	{
+		data = USART_ReceiveData(BSP_LORA);                         //读取接收到的数据
+		s_bsp_lora_rx.buffer[s_bsp_lora_rx.length] = data;
+		//Bsp_Debug_Sendbyte(s_lora_rx.buffer[s_lora_rx.length]);      //把收到的数据发送回电脑	
+		s_bsp_lora_rx.length++;
+	}
 }
 
 

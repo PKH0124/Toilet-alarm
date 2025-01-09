@@ -635,16 +635,6 @@
           <GroupName>sttabs</GroupName>
           <Files>
             <File>
-              <FileName>abs_lora.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\sttabs\abs_lora.c</FilePath>
-            </File>
-            <File>
-              <FileName>abs_lora.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\sttabs\abs_lora.h</FilePath>
-            </File>
-            <File>
               <FileName>abs_ht32led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\sttabs\abs_ht32led.c</FilePath>
@@ -653,6 +643,16 @@
               <FileName>abs_ht32led.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\sttabs\abs_ht32led.h</FilePath>
+            </File>
+            <File>
+              <FileName>abs_lora.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\sttabs\abs_lora.c</FilePath>
+            </File>
+            <File>
+              <FileName>abs_lora.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\sttabs\abs_lora.h</FilePath>
             </File>
             <File>
               <FileName>abs_delay.c</FileName>
