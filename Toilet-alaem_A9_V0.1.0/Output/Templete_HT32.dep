@@ -1,6 +1,6 @@
 Dependencies for Project 'Templete', Target 'HT32': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (..\User\main.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+F (..\User\main.c)(0x6787714F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -50,13 +50,13 @@ I (..\Utilities\common/spi_flash.h)(0x677FE769)
 I (..\Utilities\common/spi_lcd.h)(0x677FE769)
 I (..\Utilities\common/lcd.h)(0x677FE769)
 I (..\Utilities\common/ebi_lcd.h)(0x677FE769)
-I (..\sttbsp\bsp_debug.h)(0x677FE769)
+I (..\sttbsp\bsp_debug.h)(0x67877343)
 I (..\sttabs\abs_lora.h)(0x677FF559)
-I (..\sttbsp\bsp_lora.h)(0x677FF6D1)
+I (..\sttbsp\bsp_lora.h)(0x67877343)
 I (..\sttabs\abs_ht32led.h)(0x677FF1AE)
 I (..\sttbsp\bsp_ht32led.h)(0x677FF17E)
 I (..\sttabs\abs_delay.h)(0x677FE769)
-F (..\User\ht32f5xxxx_01_it.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_01_it.o --omf_browse ..\output\ht32f5xxxx_01_it.crf --depend ..\output\ht32f5xxxx_01_it.d)
+F (..\User\ht32f5xxxx_01_it.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_01_it.o --omf_browse ..\output\ht32f5xxxx_01_it.crf --depend ..\output\ht32f5xxxx_01_it.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -102,8 +102,8 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 F (..\Libraries\ht32f5xxxx_conf.h)(0x677FE769)()
 F (..\Libraries\ht32f5xxxx_01_usbdconf.h)(0x677FE769)()
 F (..\Libraries\HT32F5xxxx_01_DebugSupport.ini)(0x677FE769)()
-F (..\Listing\ht32_op.s)(0x677FE769)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx--pd "__UVISION_VERSION SETA 538" --pd "USE_HT32F52342_52 SETA 1" --pd "USE_HT32_CHIP SETA 4"--list ..\listing\ht32_op.lst --xref -o ..\output\ht32_op.o --depend ..\output\ht32_op.d)
-F (..\Libraries\system_ht32f5xxxx_01.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\system_ht32f5xxxx_01.o --omf_browse ..\output\system_ht32f5xxxx_01.crf --depend ..\output\system_ht32f5xxxx_01.d)
+F (..\Listing\ht32_op.s)(0x677FE769)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx--pd "__UVISION_VERSION SETA 538" --pd "USE_HT32F52342_52 SETA 1" --pd "USE_HT32_CHIP SETA 4"--list ..\listing\ht32_op.lst --xref -o ..\output\ht32_op.o --depend ..\output\ht32_op.d)
+F (..\Libraries\system_ht32f5xxxx_01.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\system_ht32f5xxxx_01.o --omf_browse ..\output\system_ht32f5xxxx_01.crf --depend ..\output\system_ht32f5xxxx_01.d)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
 I (..\Libraries\CMSIS\Include\core_cm0plus.h)(0x677FE769)
@@ -146,8 +146,8 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Listing\startup_ht32f5xxxx_01.s)(0x677FE769)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx--pd "__UVISION_VERSION SETA 538" --pd "USE_HT32F52342_52 SETA 1" --pd "USE_HT32_CHIP SETA 4"--list ..\listing\startup_ht32f5xxxx_01.lst --xref -o ..\output\startup_ht32f5xxxx_01.o --depend ..\output\startup_ht32f5xxxx_01.d)
-F (..\Libraries\HT32_USBD_Library\src\ht32_usbd_core.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_usbd_core.o --omf_browse ..\output\ht32_usbd_core.crf --depend ..\output\ht32_usbd_core.d)
+F (..\Listing\startup_ht32f5xxxx_01.s)(0x677FE769)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx--pd "__UVISION_VERSION SETA 538" --pd "USE_HT32F52342_52 SETA 1" --pd "USE_HT32_CHIP SETA 4"--list ..\listing\startup_ht32f5xxxx_01.lst --xref -o ..\output\startup_ht32f5xxxx_01.o --depend ..\output\startup_ht32f5xxxx_01.d)
+F (..\Libraries\HT32_USBD_Library\src\ht32_usbd_core.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_usbd_core.o --omf_browse ..\output\ht32_usbd_core.crf --depend ..\output\ht32_usbd_core.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -191,7 +191,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 I (..\Libraries\HT32_USBD_Library\inc\ht32_usbd_core.h)(0x677FE769)
-F (..\Utilities\ht32_board.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_board.o --omf_browse ..\output\ht32_board.crf --depend ..\output\ht32_board.d)
+F (..\Utilities\ht32_board.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_board.o --omf_browse ..\output\ht32_board.crf --depend ..\output\ht32_board.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
 I (..\Utilities\HT32_Board/ht32f5xxxx_board_01.c)(0x677FE769)
 I (..\Utilities\ht32_board.h)(0x677FE769)
@@ -242,7 +242,7 @@ I (..\Utilities\common/spi_flash.h)(0x677FE769)
 I (..\Utilities\common/spi_lcd.h)(0x677FE769)
 I (..\Utilities\common/lcd.h)(0x677FE769)
 I (..\Utilities\common/ebi_lcd.h)(0x677FE769)
-F (..\Utilities\common\i2c_eeprom.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\i2c_eeprom.o --omf_browse ..\output\i2c_eeprom.crf --depend ..\output\i2c_eeprom.d)
+F (..\Utilities\common\i2c_eeprom.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\i2c_eeprom.o --omf_browse ..\output\i2c_eeprom.crf --depend ..\output\i2c_eeprom.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -293,7 +293,7 @@ I (..\Utilities\common/spi_flash.h)(0x677FE769)
 I (..\Utilities\common/spi_lcd.h)(0x677FE769)
 I (..\Utilities\common/lcd.h)(0x677FE769)
 I (..\Utilities\common/ebi_lcd.h)(0x677FE769)
-F (..\Utilities\common\spi_flash.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\spi_flash.o --omf_browse ..\output\spi_flash.crf --depend ..\output\spi_flash.d)
+F (..\Utilities\common\spi_flash.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\spi_flash.o --omf_browse ..\output\spi_flash.crf --depend ..\output\spi_flash.d)
 I (..\Utilities\common\spi_flash.h)(0x677FE769)
 I (..\Utilities\ht32_board.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -344,7 +344,7 @@ I (..\Utilities\common/spi_flash.h)(0x677FE769)
 I (..\Utilities\common/spi_lcd.h)(0x677FE769)
 I (..\Utilities\common/lcd.h)(0x677FE769)
 I (..\Utilities\common/ebi_lcd.h)(0x677FE769)
-F (..\Utilities\common\ebi_lcd.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ebi_lcd.o --omf_browse ..\output\ebi_lcd.crf --depend ..\output\ebi_lcd.d)
+F (..\Utilities\common\ebi_lcd.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ebi_lcd.o --omf_browse ..\output\ebi_lcd.crf --depend ..\output\ebi_lcd.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -396,7 +396,7 @@ I (..\Utilities\common/spi_lcd.h)(0x677FE769)
 I (..\Utilities\common/lcd.h)(0x677FE769)
 I (..\Utilities\common/ebi_lcd.h)(0x677FE769)
 I (..\Utilities\common\font.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_cm0plus_misc.o --omf_browse ..\output\ht32_cm0plus_misc.crf --depend ..\output\ht32_cm0plus_misc.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32_cm0plus_misc.o --omf_browse ..\output\ht32_cm0plus_misc.crf --depend ..\output\ht32_cm0plus_misc.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -442,7 +442,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\src\ht32_div.c)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\src\ht32_rand.c)(0x677FE769)
 I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_adc.o --omf_browse ..\output\ht32f5xxxx_adc.crf --depend ..\output\ht32f5xxxx_adc.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_adc.o --omf_browse ..\output\ht32f5xxxx_adc.crf --depend ..\output\ht32f5xxxx_adc.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -485,7 +485,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_bftm.o --omf_browse ..\output\ht32f5xxxx_bftm.crf --depend ..\output\ht32f5xxxx_bftm.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_bftm.o --omf_browse ..\output\ht32f5xxxx_bftm.crf --depend ..\output\ht32f5xxxx_bftm.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -528,7 +528,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_ckcu.o --omf_browse ..\output\ht32f5xxxx_ckcu.crf --depend ..\output\ht32f5xxxx_ckcu.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_ckcu.o --omf_browse ..\output\ht32f5xxxx_ckcu.crf --depend ..\output\ht32f5xxxx_ckcu.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -571,7 +571,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_cmp.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_cmp.o --omf_browse ..\output\ht32f5xxxx_cmp.crf --depend ..\output\ht32f5xxxx_cmp.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_cmp.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_cmp.o --omf_browse ..\output\ht32f5xxxx_cmp.crf --depend ..\output\ht32f5xxxx_cmp.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_cmp.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -614,7 +614,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_crc.o --omf_browse ..\output\ht32f5xxxx_crc.crf --depend ..\output\ht32f5xxxx_crc.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_crc.o --omf_browse ..\output\ht32f5xxxx_crc.crf --depend ..\output\ht32f5xxxx_crc.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -657,7 +657,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_ebi.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_ebi.o --omf_browse ..\output\ht32f5xxxx_ebi.crf --depend ..\output\ht32f5xxxx_ebi.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_ebi.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_ebi.o --omf_browse ..\output\ht32f5xxxx_ebi.crf --depend ..\output\ht32f5xxxx_ebi.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_ebi.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -700,7 +700,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_exti.o --omf_browse ..\output\ht32f5xxxx_exti.crf --depend ..\output\ht32f5xxxx_exti.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_exti.o --omf_browse ..\output\ht32f5xxxx_exti.crf --depend ..\output\ht32f5xxxx_exti.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -743,7 +743,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_flash.o --omf_browse ..\output\ht32f5xxxx_flash.crf --depend ..\output\ht32f5xxxx_flash.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_flash.o --omf_browse ..\output\ht32f5xxxx_flash.crf --depend ..\output\ht32f5xxxx_flash.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -786,7 +786,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_gpio.o --omf_browse ..\output\ht32f5xxxx_gpio.crf --depend ..\output\ht32f5xxxx_gpio.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_gpio.o --omf_browse ..\output\ht32f5xxxx_gpio.crf --depend ..\output\ht32f5xxxx_gpio.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -829,7 +829,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_i2c.o --omf_browse ..\output\ht32f5xxxx_i2c.crf --depend ..\output\ht32f5xxxx_i2c.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_i2c.o --omf_browse ..\output\ht32f5xxxx_i2c.crf --depend ..\output\ht32f5xxxx_i2c.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -872,7 +872,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_i2s.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_i2s.o --omf_browse ..\output\ht32f5xxxx_i2s.crf --depend ..\output\ht32f5xxxx_i2s.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_i2s.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_i2s.o --omf_browse ..\output\ht32f5xxxx_i2s.crf --depend ..\output\ht32f5xxxx_i2s.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2s.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -915,7 +915,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_mctm.o --omf_browse ..\output\ht32f5xxxx_mctm.crf --depend ..\output\ht32f5xxxx_mctm.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_mctm.o --omf_browse ..\output\ht32f5xxxx_mctm.crf --depend ..\output\ht32f5xxxx_mctm.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
@@ -958,7 +958,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_pdma.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_pdma.o --omf_browse ..\output\ht32f5xxxx_pdma.crf --depend ..\output\ht32f5xxxx_pdma.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_pdma.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_pdma.o --omf_browse ..\output\ht32f5xxxx_pdma.crf --depend ..\output\ht32f5xxxx_pdma.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_pdma.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1001,7 +1001,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_pwrcu.o --omf_browse ..\output\ht32f5xxxx_pwrcu.crf --depend ..\output\ht32f5xxxx_pwrcu.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_pwrcu.o --omf_browse ..\output\ht32f5xxxx_pwrcu.crf --depend ..\output\ht32f5xxxx_pwrcu.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1044,7 +1044,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_rstcu.o --omf_browse ..\output\ht32f5xxxx_rstcu.crf --depend ..\output\ht32f5xxxx_rstcu.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_rstcu.o --omf_browse ..\output\ht32f5xxxx_rstcu.crf --depend ..\output\ht32f5xxxx_rstcu.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1087,7 +1087,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_rtc.o --omf_browse ..\output\ht32f5xxxx_rtc.crf --depend ..\output\ht32f5xxxx_rtc.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_rtc.o --omf_browse ..\output\ht32f5xxxx_rtc.crf --depend ..\output\ht32f5xxxx_rtc.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1130,7 +1130,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_sci.o --omf_browse ..\output\ht32f5xxxx_sci.crf --depend ..\output\ht32f5xxxx_sci.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_sci.o --omf_browse ..\output\ht32f5xxxx_sci.crf --depend ..\output\ht32f5xxxx_sci.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_sci.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1173,7 +1173,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_spi.o --omf_browse ..\output\ht32f5xxxx_spi.crf --depend ..\output\ht32f5xxxx_spi.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_spi.o --omf_browse ..\output\ht32f5xxxx_spi.crf --depend ..\output\ht32f5xxxx_spi.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1216,7 +1216,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_tm.o --omf_browse ..\output\ht32f5xxxx_tm.crf --depend ..\output\ht32f5xxxx_tm.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_tm.o --omf_browse ..\output\ht32f5xxxx_tm.crf --depend ..\output\ht32f5xxxx_tm.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1259,7 +1259,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_usart.o --omf_browse ..\output\ht32f5xxxx_usart.crf --depend ..\output\ht32f5xxxx_usart.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_usart.o --omf_browse ..\output\ht32f5xxxx_usart.crf --depend ..\output\ht32f5xxxx_usart.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1302,7 +1302,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_usbd.o --omf_browse ..\output\ht32f5xxxx_usbd.crf --depend ..\output\ht32f5xxxx_usbd.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_usbd.o --omf_browse ..\output\ht32f5xxxx_usbd.crf --depend ..\output\ht32f5xxxx_usbd.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -1346,7 +1346,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_usbdchk.h)(0x677FE769)
-F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_wdt.o --omf_browse ..\output\ht32f5xxxx_wdt.crf --depend ..\output\ht32f5xxxx_wdt.d)
+F (..\Libraries\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\ht32f5xxxx_wdt.o --omf_browse ..\output\ht32f5xxxx_wdt.crf --depend ..\output\ht32f5xxxx_wdt.d)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1389,7 +1389,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-F (..\sttbsp\bsp_ht32led.c)(0x677FF17E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_ht32led.o --omf_browse ..\output\bsp_ht32led.crf --depend ..\output\bsp_ht32led.d)
+F (..\sttbsp\bsp_ht32led.c)(0x677FF17E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_ht32led.o --omf_browse ..\output\bsp_ht32led.crf --depend ..\output\bsp_ht32led.d)
 I (..\sttbsp\bsp_ht32led.h)(0x677FF17E)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1434,11 +1434,11 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 F (..\sttbsp\bsp_ht32led.h)(0x677FF17E)()
-F (..\sttbsp\bsp_debug.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_debug.o --omf_browse ..\output\bsp_debug.crf --depend ..\output\bsp_debug.d)
+F (..\sttbsp\bsp_debug.c)(0x6787713B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_debug.o --omf_browse ..\output\bsp_debug.crf --depend ..\output\bsp_debug.d)
 I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (D:\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5CEB79E4)
-I (..\sttbsp\bsp_debug.h)(0x677FE769)
+I (..\sttbsp\bsp_debug.h)(0x67877343)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -1482,12 +1482,12 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 I (..\sttabs\abs_ht32led.h)(0x677FF1AE)
 I (..\sttbsp\bsp_ht32led.h)(0x677FF17E)
-F (..\sttbsp\bsp_debug.h)(0x677FE769)()
-F (..\sttbsp\bsp_lora.c)(0x677FF6D1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_lora.o --omf_browse ..\output\bsp_lora.crf --depend ..\output\bsp_lora.d)
+F (..\sttbsp\bsp_debug.h)(0x67877343)()
+F (..\sttbsp\bsp_lora.c)(0x6787752D)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\bsp_lora.o --omf_browse ..\output\bsp_lora.crf --depend ..\output\bsp_lora.d)
 I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (D:\keil_v5\ARM\ARMCC\include\stdarg.h)(0x5CEB79E4)
-I (..\sttbsp\bsp_debug.h)(0x677FE769)
+I (..\sttbsp\bsp_debug.h)(0x67877343)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_config.h)(0x677FE769)
@@ -1529,12 +1529,12 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-I (..\sttbsp\bsp_lora.h)(0x677FF6D1)
+I (..\sttbsp\bsp_lora.h)(0x67877343)
 I (..\sttabs\abs_ht32led.h)(0x677FF1AE)
 I (..\sttbsp\bsp_ht32led.h)(0x677FF17E)
 I (..\sttabs\abs_delay.h)(0x677FE769)
-F (..\sttbsp\bsp_lora.h)(0x677FF6D1)()
-F (..\sttabs\abs_ht32led.c)(0x677FF17E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_ht32led.o --omf_browse ..\output\abs_ht32led.crf --depend ..\output\abs_ht32led.d)
+F (..\sttbsp\bsp_lora.h)(0x67877343)()
+F (..\sttabs\abs_ht32led.c)(0x677FF17E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_ht32led.o --omf_browse ..\output\abs_ht32led.crf --depend ..\output\abs_ht32led.d)
 I (..\sttabs\abs_ht32led.h)(0x677FF1AE)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)
@@ -1580,7 +1580,7 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
 I (..\sttbsp\bsp_ht32led.h)(0x677FF17E)
 F (..\sttabs\abs_ht32led.h)(0x677FF1AE)()
-F (..\sttabs\abs_lora.c)(0x677FF6E9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_lora.o --omf_browse ..\output\abs_lora.crf --depend ..\output\abs_lora.d)
+F (..\sttabs\abs_lora.c)(0x678773F7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_lora.o --omf_browse ..\output\abs_lora.crf --depend ..\output\abs_lora.d)
 I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (..\sttabs\abs_lora.h)(0x677FF559)
@@ -1625,11 +1625,11 @@ I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_div.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x677FE769)
-I (..\sttbsp\bsp_lora.h)(0x677FF6D1)
-I (..\sttbsp\bsp_debug.h)(0x677FE769)
+I (..\sttbsp\bsp_lora.h)(0x67877343)
+I (..\sttbsp\bsp_debug.h)(0x67877343)
 I (..\sttabs\abs_delay.h)(0x677FE769)
 F (..\sttabs\abs_lora.h)(0x677FF559)()
-F (..\sttabs\abs_delay.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_delay.o --omf_browse ..\output\abs_delay.crf --depend ..\output\abs_delay.d)
+F (..\sttabs\abs_delay.c)(0x677FE769)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\Include -I ..\Libraries\Device\Holtek\HT32F5xxxx\Include -I ..\Libraries\HT32F5xxxx_Driver\inc -I ..\Libraries\HT32_USBD_Library\inc -I ..\Utilities -I ..\Libraries -I ..\sttbsp -I ..\sttabs -I ..\sttapp-ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx-D__UVISION_VERSION="538" -DUSE_HT32F52342_52 -DUSE_HT32_DRIVER -DUSE_HT32F52352_SK -DUSE_HT32F52342_52 -DUSE_MEM_HT32F52352-o ..\output\abs_delay.o --omf_browse ..\output\abs_delay.crf --depend ..\output\abs_delay.d)
 I (..\sttabs\abs_delay.h)(0x677FE769)
 I (..\Libraries\HT32F5xxxx_Driver\inc\ht32.h)(0x677FE769)
 I (..\Libraries\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x677FE769)

@@ -572,7 +572,7 @@ ARM Macro Assembler    Page 9
               05FA0004 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=..\output\startup_ht32f5xxxx_01.d -o..\output\startup_ht32f5xxxx_
-01.o -ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx --prede
+01.o -ID:\keil_v5\pack\Holtek\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx --prede
 fine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 538" --predefine="
 USE_HT32F52342_52 SETA 1" --predefine="USE_HT32_CHIP SETA 4" --list=..\listing\
 startup_ht32f5xxxx_01.lst ..\Listing\startup_ht32f5xxxx_01.s

@@ -5,18 +5,16 @@
 
 #define BSP_DEBUG_MAX_LEN (200)/*最大缓存长度*/
 
-#define BSP_DEBUG (HT_UART0)
+#define BSP_DEBUG (HT_USART0)
 
-#define BSP_DEBUG_CLK(CK) (CKCUClock.Bit.UART0)
+#define BSP_DEBUG_CLK(CK) (CKCUClock.Bit.USART0)
 
-#define BSP_DEBUG_AFIO 	(GPIO_PB)
+#define BSP_DEBUG_AFIO 	(GPIO_PA)
 #define BSP_DEBUG_AFIO_TX	(AFIO_PIN_2)
 #define BSP_DEBUG_AFIO_RX	(AFIO_PIN_3)
 
-#define BSP_DEBUG_GPIO 	(HT_GPIOB)
-
-#define BSP_DEBUG_IRQN (UART0_IRQn)
-#define BSP_DEBUG_IRQHANDLER (UART0_IRQHandler)/*接收中断函数*/
+#define BSP_DEBUG_IRQN (USART0_IRQn)
+#define BSP_DEBUG_IRQHANDLER (USART0_IRQHandler)/*接收中断函数*/
 
 
 void Bsp_Debug_Config(void);

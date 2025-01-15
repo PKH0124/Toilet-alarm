@@ -214,7 +214,7 @@ void BSP_LORA_IRQHANDLER(void)
 	{
 		data = USART_ReceiveData(BSP_LORA);                         //读取接收到的数据
 		s_bsp_lora_rx.buffer[s_bsp_lora_rx.length] = data;
-		//Bsp_Debug_Sendbyte(s_lora_rx.buffer[s_lora_rx.length]);      //把收到的数据发送回电脑	
+		Bsp_Lora_Sendbyte(s_bsp_lora_rx.buffer[s_bsp_lora_rx.length]);      //把收到的数据发送回电脑	
 		s_bsp_lora_rx.length++;
 	}
 }

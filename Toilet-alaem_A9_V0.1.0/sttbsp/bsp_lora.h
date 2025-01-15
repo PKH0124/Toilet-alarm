@@ -5,19 +5,19 @@
 
 #define BSP_LORA_MAX_LEN (200)/*最大缓存长度*/
 
-#define BSP_LORA (HT_USART0)
+#define BSP_LORA (HT_UART0)
 
-#define BSP_LORA_CLK(CK) (CKCUClock.Bit.USART0)
+#define BSP_LORA_CLK(CK) (CKCUClock.Bit.UART0)
 
-#define BSP_LORA_AFIO 	(GPIO_PA)
+#define BSP_LORA_AFIO 	(GPIO_PB)
 #define BSP_LORA_AFIO_TX	(AFIO_PIN_2)
 #define BSP_LORA_AFIO_RX	(AFIO_PIN_3)
 
 #define BSP_LORA_GPIO 	(HT_GPIOC)
 #define	BSP_LORA_GPIO_RES	(GPIO_PIN_8)
 
-#define BSP_LORA_IRQHANDLER (USART0_IRQHandler)/*接收中断函数*/
-#define BSP_LORA_IRQN (USART0_IRQn)
+#define BSP_LORA_IRQHANDLER (UART0_IRQHandler)/*接收中断函数*/
+#define BSP_LORA_IRQN (UART0_IRQn)
 
 /*lora中断缓存结构体*/
 typedef struct BSP_LORA_USART {

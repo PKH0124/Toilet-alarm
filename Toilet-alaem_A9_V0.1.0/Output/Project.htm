@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\Output\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\Output\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Fri Jan 10 00:18:50 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Wed Jan 15 16:43:26 2025
 <BR><P>
 <H3>Maximum Stack Usage =        296 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -49,9 +49,9 @@ Function Pointers
  <LI><a href="#[3]">SVC_Handler</a> from ht32f5xxxx_01_it.o(i.SVC_Handler) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[5]">SysTick_Handler</a> from ht32f5xxxx_01_it.o(i.SysTick_Handler) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[24]">SystemInit</a> from system_ht32f5xxxx_01.o(i.SystemInit) referenced from startup_ht32f5xxxx_01.o(RESET)
- <LI><a href="#[1c]">UART0_IRQHandler</a> from bsp_debug.o(i.UART0_IRQHandler) referenced from startup_ht32f5xxxx_01.o(RESET)
+ <LI><a href="#[1c]">UART0_IRQHandler</a> from bsp_lora.o(i.UART0_IRQHandler) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[1d]">UART1_IRQHandler</a> from startup_ht32f5xxxx_01.o(RESET) referenced from startup_ht32f5xxxx_01.o(RESET)
- <LI><a href="#[1a]">USART0_IRQHandler</a> from bsp_lora.o(i.USART0_IRQHandler) referenced from startup_ht32f5xxxx_01.o(RESET)
+ <LI><a href="#[1a]">USART0_IRQHandler</a> from bsp_debug.o(i.USART0_IRQHandler) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[1b]">USART1_IRQHandler</a> from startup_ht32f5xxxx_01.o(RESET) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[20]">USB_IRQHandler</a> from startup_ht32f5xxxx_01.o(RESET) referenced from startup_ht32f5xxxx_01.o(RESET)
  <LI><a href="#[25]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_ht32f5xxxx_01.o(RESET)
@@ -396,7 +396,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Abs_Lora_Init
 </UL>
 
-<P><STRONG><a name="[52]"></a>Bsp_Debug_Config</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, bsp_debug.o(i.Bsp_Debug_Config))
+<P><STRONG><a name="[52]"></a>Bsp_Debug_Config</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, bsp_debug.o(i.Bsp_Debug_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = Bsp_Debug_Config &rArr; USART_Init &rArr; CKCU_GetPeripFrequency &rArr; CKCU_GetClocksFrequency &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TxRxCmd
@@ -408,7 +408,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[58]"></a>Bsp_Debug_Printf</STRONG> (Thumb, 72 bytes, Stack size 240 bytes, bsp_debug.o(i.Bsp_Debug_Printf))
+<P><STRONG><a name="[58]"></a>Bsp_Debug_Printf</STRONG> (Thumb, 74 bytes, Stack size 240 bytes, bsp_debug.o(i.Bsp_Debug_Printf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = Bsp_Debug_Printf &rArr; vsprintf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vsprintf
@@ -487,16 +487,17 @@ Global Symbols
 <LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Abs_Lora_EnterAT
 </UL>
 
-<P><STRONG><a name="[65]"></a>Bsp_Lora_Sendbyte</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, bsp_lora.o(i.Bsp_Lora_Sendbyte))
+<P><STRONG><a name="[65]"></a>Bsp_Lora_Sendbyte</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, bsp_lora.o(i.Bsp_Lora_Sendbyte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Bsp_Lora_Sendbyte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
 </UL>
-<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Lora_SendArray
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Lora_SendArray
 </UL>
 
-<P><STRONG><a name="[4d]"></a>Bsp_Lora_Usart_Config</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, bsp_lora.o(i.Bsp_Lora_Usart_Config))
+<P><STRONG><a name="[4d]"></a>Bsp_Lora_Usart_Config</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, bsp_lora.o(i.Bsp_Lora_Usart_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = Bsp_Lora_Usart_Config &rArr; USART_Init &rArr; CKCU_GetPeripFrequency &rArr; CKCU_GetClocksFrequency &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TxRxCmd
@@ -601,8 +602,17 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_ht32f5xxxx_01.o(RESET)
 </UL>
-<P><STRONG><a name="[1c]"></a>UART0_IRQHandler</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, bsp_debug.o(i.UART0_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART0_IRQHandler
+<P><STRONG><a name="[1c]"></a>UART0_IRQHandler</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, bsp_lora.o(i.UART0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART0_IRQHandler &rArr; Bsp_Lora_Sendbyte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Lora_Sendbyte
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_ht32f5xxxx_01.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>USART0_IRQHandler</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, bsp_debug.o(i.USART0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART0_IRQHandler
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
 <LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
@@ -610,18 +620,10 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_ht32f5xxxx_01.o(RESET)
 </UL>
-<P><STRONG><a name="[1a]"></a>USART0_IRQHandler</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, bsp_lora.o(i.USART0_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART0_IRQHandler
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
-</UL>
-<BR>[Address Reference Count : 1]<UL><LI> startup_ht32f5xxxx_01.o(RESET)
-</UL>
 <P><STRONG><a name="[5b]"></a>USART_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ht32f5xxxx_usart.o(i.USART_GetFlagStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
+<BR><BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Lora_Sendbyte
-<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+<LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Debug_Printf
 </UL>
 
@@ -641,13 +643,13 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[6c]"></a>USART_ReceiveData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, ht32f5xxxx_usart.o(i.USART_ReceiveData))
-<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
-<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+<BR><BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+<LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
 </UL>
 
 <P><STRONG><a name="[5c]"></a>USART_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ht32f5xxxx_usart.o(i.USART_SendData))
 <BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Lora_Sendbyte
-<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_IRQHandler
+<LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Bsp_Debug_Printf
 </UL>
 

@@ -578,7 +578,7 @@ E_HT32_CHIP=HT32F50231_41)      ||         (USE_HT32_CHIP=HT32F0008)
   344 00000000                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=..\output\ht32_op.d -o..\output\ht32_op.o -ID:\keil_v5\pack\Holte
-k\HT32_DFP\1.0.61\ARM\INC\Holtek\HT32F5xxxx --predefine="__MICROLIB SETA 1" --p
+k\HT32_DFP\1.0.62\ARM\INC\Holtek\HT32F5xxxx --predefine="__MICROLIB SETA 1" --p
 redefine="__UVISION_VERSION SETA 538" --predefine="USE_HT32F52342_52 SETA 1" --
 predefine="USE_HT32_CHIP SETA 4" --list=..\listing\ht32_op.lst ..\Listing\ht32_
 op.s
