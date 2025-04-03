@@ -1,0 +1,14 @@
+.\build\keil\obj\ef_types.o: easyflash\plugins\types\ef_types.c
+.\build\keil\obj\ef_types.o: easyflash\plugins\types\ef_types.h
+.\build\keil\obj\ef_types.o: easyflash\inc\easyflash.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\build\keil\obj\ef_types.o: easyflash\inc\ef_cfg.h
+.\build\keil\obj\ef_types.o: easyflash\inc\ef_def.h
+.\build\keil\obj\ef_types.o: easyflash\plugins\types\struct2json\inc\s2j.h
+.\build\keil\obj\ef_types.o: easyflash\plugins\types\struct2json\inc\cJSON.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\keil\obj\ef_types.o: easyflash\plugins\types\struct2json\inc\s2jdef.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\keil\obj\ef_types.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
