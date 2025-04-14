@@ -17,7 +17,7 @@ Library Manager: ArmAr.exe V5.06 update 6 (build 750)
 Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
 CPU DLL:         SARMCM3.DLL V5.38.0.0
 Dialog DLL:      DARMCM1.DLL V1.19.6.0
-Target DLL:      CMSIS_AGDI.dll V1.33.15.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
 Dialog DLL:      TARMCM1.DLL V1.14.6.0
  
 <h2>Project:</h2>
@@ -27,7 +27,13 @@ Project File Date:  04/08/2025
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil_v5\ARM\ARMCC\Bin'
 Build target 'rt-thread'
-".\build\keil\Obj\rt-thread.axf" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+sttapp\main.c(26): warning:  #177-D: function "Close_Thread_Enter"  was declared but never referenced
+  static void Close_Thread_Enter(void *param)
+sttapp\main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=41944 RO-data=3548 RW-data=1072 ZI-data=2448  
+".\build\keil\Obj\rt-thread.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -40,7 +46,7 @@ Package Vendor: Holtek
   D:/keil_v5/pack/Holtek/HT32_DFP/1.0.62/ARM/INC/Holtek/HT32F5xxxx
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

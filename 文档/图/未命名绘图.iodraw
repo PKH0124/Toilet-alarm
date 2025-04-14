@@ -1,0 +1,379 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="4w-YluVDOTN1ZmJeSSyt">
+    <mxGraphModel dx="3599" dy="2569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-2" target="wfWUi6XdAbgZSIRgkDli-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-439.9999999999998" y="-566.9166666666665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-2" value="创建语音交互" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-676.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-3" value="创建按钮检测中断" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="-674.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-4" value="创建警报线程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="-674.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-5" value="创建LoRa数据处理线程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="347" y="-667" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-6" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-440" y="-443.74923665364577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-440" y="-590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-350" y="-533" />
+              <mxPoint x="-350" y="-590" />
+              <mxPoint x="-400" y="-590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-86" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfWUi6XdAbgZSIRgkDli-85">
+          <mxGeometry x="-0.8395" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-8" value="是否接收到&lt;div&gt;警报语音&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-506" y="-572.75" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-252.99999999999977" y="-564.4166666666665" as="targetPoint" />
+            <mxPoint x="-252.99999999999977" y="-614.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-11" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-13" target="wfWUi6XdAbgZSIRgkDli-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-252.99999999999977" y="-437.00923665364576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-13">
+          <mxGeometry x="-0.8902" relative="1" as="geometry">
+            <mxPoint x="-253" y="-362.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-155" y="-530.25" />
+              <mxPoint x="-155" y="-362.25" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-13" value="是否触发警&lt;br&gt;报按钮" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-319" y="-570.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-14" value="警报状态为&lt;br&gt;发生意外" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-312.9999999999998" y="-441.24923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-252.99999999999977" y="-331.4166666666665" as="targetPoint" />
+            <mxPoint x="-253" y="-381.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-16" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-17" target="wfWUi6XdAbgZSIRgkDli-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-252.99999999999977" y="-204.00923665364576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-17" value="是否触发解除&lt;br&gt;警报钮" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-319" y="-337.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-18" value="警报状态为空闲，并解除警报解除线程的挂起" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-312.9999999999998" y="-208.24923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-57.99999999999977" y="-564.4166666666665" as="targetPoint" />
+            <mxPoint x="-58" y="-614.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-20" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#E6FFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-22">
+          <mxGeometry x="-0.759" relative="1" as="geometry">
+            <mxPoint x="-58" y="-590.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="28" y="-530.25" />
+              <mxPoint x="28" y="-590.25" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-21" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-58" y="-449.36104329427076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-22" value="警报状态&lt;br style=&quot;font-size: 14px;&quot;&gt;是否为空闲？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-124" y="-570.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-23" value="创建警报解除线程并让其挂起" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="202" y="-667" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263" y="-563" as="targetPoint" />
+            <mxPoint x="263" y="-607" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="259.5" y="-449.5555114746094" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-26" value="LoRa发送警报解除信息给警报器，4G模块发送警报解除信息给OneNET平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="194" y="-563" width="131" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-27" value="4G模块发送短信给紧急联系人，让警报解除线程再次挂起" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="202" y="-448" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="-557.1666666666665" as="targetPoint" />
+            <mxPoint x="408" y="-607" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-29" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-31" target="wfWUi6XdAbgZSIRgkDli-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="-429.75923665364576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-30" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-31">
+          <mxGeometry x="-0.8933" relative="1" as="geometry">
+            <mxPoint x="408" y="-354.7037658691406" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488" y="-522.5" />
+              <mxPoint x="488" y="-354.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-31" value="是否接收到co&lt;br&gt;异常警报信号" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="342" y="-563" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-32" value="警报状态为&lt;br&gt;CO异常" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="348.0000000000002" y="-436.49923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="-326.6666666666665" as="targetPoint" />
+            <mxPoint x="408" y="-376.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-34" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-36" target="wfWUi6XdAbgZSIRgkDli-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="-199.25923665364576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-35" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-36">
+          <mxGeometry x="-0.8881" relative="1" as="geometry">
+            <mxPoint x="408" y="-120.62961832682277" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="-292.5" />
+              <mxPoint x="491" y="-120.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-36" value="是否接收到有人长&lt;br style=&quot;font-size: 14px;&quot;&gt;时间静止警报信号" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="342" y="-332.5" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-37" value="警报状态为&lt;br&gt;发生意外" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="348.0000000000002" y="-205.99923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" target="wfWUi6XdAbgZSIRgkDli-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="-96.16666666666652" as="targetPoint" />
+            <mxPoint x="408" y="-146" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-39" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-40" target="wfWUi6XdAbgZSIRgkDli-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="31.240763346354242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-40" value="是否接收到co浓度&lt;br style=&quot;font-size: 14px;&quot;&gt;，温湿度数据" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="342" y="-102" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-41" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;LoRa发送数据给警报器，4G模块发送数据给OneNET平台&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="342" y="33" width="134" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-42" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#E6FFCC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-44" target="wfWUi6XdAbgZSIRgkDli-58">
+          <mxGeometry x="0.0933" y="-5" relative="1" as="geometry">
+            <mxPoint x="67" y="-410.75" as="targetPoint" />
+            <mxPoint x="-5" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-43" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-58" y="-331.0832824707031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-44" value="警报状态&lt;br style=&quot;font-size: 14px;&quot;&gt;是否为CO异常？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-124" y="-451.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="43" y="-9.638854980468977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-46" value="4G模块发送短信给紧急联系人并拨打电话" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-16.999999999999773" y="-119.74923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-47" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44" y="117.75076334635423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-48" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-49">
+          <mxGeometry x="-0.759" relative="1" as="geometry">
+            <mxPoint x="44" y="-28.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="31.25" />
+              <mxPoint x="130" y="-28.75" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-49" value="紧急联系人电话&lt;br style=&quot;font-size: 14px;&quot;&gt;是否接通" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="-8.75" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-50" value="进行语音通话" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-15.999999999999773" y="119.25076334635423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="43" y="227.36114501953125" as="targetPoint" />
+            <mxPoint x="43" y="177.25076334635446" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-52" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44" y="354.7507633463547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-53" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-54" target="wfWUi6XdAbgZSIRgkDli-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="268.25" />
+              <mxPoint x="124" y="149.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-54" value="紧急联系人电话&lt;br style=&quot;font-size: 14px;&quot;&gt;是否挂断" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="228.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-55" value="警报状态为空闲，并解除警报解除线程的挂起" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-14.999999999999773" y="357.25076334635423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-56" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-58" target="wfWUi6XdAbgZSIRgkDli-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-57" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-58">
+          <mxGeometry x="-0.8578" relative="1" as="geometry">
+            <mxPoint x="-57.57773437500009" y="-589.6444641113281" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="-590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-58" value="警报状态是否&lt;br&gt;为发生意外？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="44" y="-451.25" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-60" target="wfWUi6XdAbgZSIRgkDli-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-60" value="LoRa发送CO异常信息给警报器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-117.99999999999977" y="-329.74923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-62" target="wfWUi6XdAbgZSIRgkDli-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-62" value="4G模块发送CO异常信息给OneNET平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-117.99999999999977" y="-226.74923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-225.30548095703125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-64" value="LoRa发送发生意外给警报器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="50.00000000000023" y="-329.74923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="-119.74923665364577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-66" value="4G模块发送发生意外给OneNET平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="50.00000000000023" y="-223.74923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-72" target="wfWUi6XdAbgZSIRgkDli-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-72" target="wfWUi6XdAbgZSIRgkDli-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-59" y="-764" />
+              <mxPoint x="-440" y="-764" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-72" target="wfWUi6XdAbgZSIRgkDli-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-59" y="-764" />
+              <mxPoint x="-253" y="-764" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-72" target="wfWUi6XdAbgZSIRgkDli-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-59" y="-765" />
+              <mxPoint x="262" y="-765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-72" target="wfWUi6XdAbgZSIRgkDli-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-59" y="-764" />
+              <mxPoint x="407" y="-764" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-72" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-109" y="-872" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-74" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-440" y="-310.99923665364577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-75" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#E6FFCC;" edge="1" parent="1" source="wfWUi6XdAbgZSIRgkDli-76">
+          <mxGeometry x="-0.759" relative="1" as="geometry">
+            <mxPoint x="-440" y="-590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-350" y="-400" />
+              <mxPoint x="-350" y="-590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-76" value="是否接收取消&lt;div&gt;警报语音&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-506" y="-440" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWUi6XdAbgZSIRgkDli-83" value="警报状态为&lt;br&gt;发生意外" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-499.9999999999998" y="-312.49923665364577" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

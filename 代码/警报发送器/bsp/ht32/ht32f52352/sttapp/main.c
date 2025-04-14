@@ -18,9 +18,24 @@
 
 static rt_thread_t lora_thread_id = RT_NULL;
 static rt_thread_t asr_thread_id = RT_NULL;
+static rt_thread_t close_thread_id = RT_NULL;
 static rt_timer_t key_time_id;
 
 uint8_t app_close_alarm_flag;
+
+static void Close_Thread_Enter(void *param)
+{
+	rt_kprintf("Close_Thread_Enter	Success\n");
+	rt_thread_suspend(close_thread_id);
+	rt_schedule();
+	while(1)
+	{
+		Bsp_Y100_Printf("{\"id\":\"123\",\"version\":\"1.0\",\"params\":{\"WeChat\":{\"value\":no}}}");
+		Bsp_Lora_Printf("wu\\%d\\%d\\%d\\no#",abs_lota_struction.temperature,abs_lota_struction.humidity,abs_lota_struction.co);
+		rt_thread_suspend(close_thread_id);
+		rt_schedule();
+	}
+}
 
 static void Lora_Thread_Enter(void *param)
 {
@@ -71,8 +86,7 @@ static void Asr_Thread_Enter(void *param)
 		}
 		if(app_close_alarm_flag == 1)
 		{
-			Bsp_Y100_Printf("{\"id\":\"123\",\"version\":\"1.0\",\"params\":{\"WeChat\":{\"value\":no}}}");
-			Bsp_Lora_Printf("wu\\%d\\%d\\%d\\no#",abs_lota_struction.temperature,abs_lota_struction.humidity,abs_lota_struction.co);
+			
 		}
 		rt_thread_mdelay(500);
 	}
@@ -87,7 +101,7 @@ static void Key_Time_Interrupt(void *param)
 	}
 	else if(abs_key_station.state == ABS_KEY_LONGPRESS5)
 	{
-		app_close_alarm_flag = 1;
+		rt_thread_resume(close_thread_id);
 	}	
 }
 
@@ -139,6 +153,7 @@ int main(void)
 	rt_kprintf("printf_thread creat success");
 	rt_thread_startup(lora_thread_id);
 	rt_thread_startup(asr_thread_id);
+	rt_thread_startup(close_thread_id);
 	rt_timer_start(key_time_id);
 		
     while (1)
