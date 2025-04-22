@@ -1,2 +1,0 @@
-2025-04-14
-Replace the crystal oscillator in the alarm device
